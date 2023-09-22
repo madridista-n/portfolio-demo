@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Rubik+Iso&family=VT323&display=swap');
+*{
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(42, 38, 42);
+}
+nav{
+    background-color: rgb(42, 38, 42);
+    height: 90px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav h1{
+    text-align: start;
+    padding-top: 25px;
+    padding-left: 20px;
+    color: rgb(183, 208, 208);
+    font-size: xx-large;
+}
+nav p{
+    color: white;
+    padding-left: 21px;
+    font-size: small;
+}
+#blue{
+    color: rgb(23, 107, 239)
+}
+#red{
+    color: rgb(255, 62, 48);
+}
+#yellow{
+    color: rgb(247, 181, 41);
+}
+#green{
+    color: rgb(23, 156, 82);
+}
+#banner img{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    color: rgb(53, 63, 61);
+    text-shadow: 2px 3px 5px whitesmoke;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 400px;
+    height: 80%;
+    margin: 15px;
+    border-radius: 6%;
+    box-shadow: 1px 3px 6px 2px;
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 3px 1px 5px;
+    color: rgb(183, 208, 208);
+}
+h3{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(183, 208, 208);
+}
+.pic p{
+    text-align: justify;
+    margin: 38px;
+    color: rgb(183, 208, 208);
+}
+.gallery{
+    margin-left: 150px;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid rgb(179, 167, 167);
+}
+.gallery img:hover{
+    box-shadow: 1px 3px 6px 2px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 400px;
+    height: 470px;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(to top,rgb(77, 72, 72) 50%,rgb(58, 55, 55) 50%);
+    background-size: 100% 200%;
+    transition: all 1s;
+    border-radius: 2%;
+}
+.box:hover{
+    background-position: bottom;
+    box-shadow: 1px 3px 7px 3px;
+}
+.box img{
+    margin-top: 15px;
+    height: 233px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 1px 3px 6px;
+    border-radius: 2%;
+}
+.box h4{
+    text-shadow: 1px 2px 3px;
+    color: rgb(183, 208, 208);
+}
+.box p,h4{
+    margin-top: 10px;
+    margin: 20px;
+    color: rgb(183, 208, 208);
+}
+#awards ul li{
+    color: rgb(183, 208, 208);
+    padding-left: 30px;
+    list-style-type: circle;
+}
+form{
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 430px;
+}
+.input{
+    display: flex;
+    width: 400px;
+}
+a{
+    text-decoration: none;
+    color: rgb(183, 208, 208);
+}
+footer{
+    background-color: rgb(50, 44, 50);
+    margin-top: 30px;
+}
